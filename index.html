@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra</title>
+    <style>
+        /* Configuração do fundo com imagem */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container do formulário */
+        .form-container {
+            background: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 360px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        input:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        /* Botão de envio */
+        .submit-button {
+            width: 100%;
+            background: #ff9800;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .submit-button:hover {
+            background: #e68900;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Finalizar Compra</h2>
+        <form action="pagamento.html" method="POST">
+            <label for="name">Nome Completo</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+            <label for="contact">Telefone ou E-mail</label>
+            <input type="text" id="contact" name="contact" placeholder="Informe seu telefone ou e-mail" required>
+
+            <label for="address">Endereço Completo</label>
+            <input type="text" id="address" name="address" placeholder="Rua, número, bairro, cidade" required>
+
+            <button type="submit" class="submit-button">Finalizar Compra</button>
+        </form>
+    </div>
+
+</body>
+</html>
