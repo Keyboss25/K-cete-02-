@@ -1,99 +1,738 @@
-<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finalizar Compra</title>
-    <style>
-        /* Configuração do fundo com imagem */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('background.jpg') no-repeat center center fixed;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        /* Container do formulário */
-        .form-container {
-            background: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            width: 100%;
-            max-width: 360px;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        label {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
-            font-size: 14px;
-            color: #555;
-        }
-
-        input {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: 0.3s;
-        }
-
-        input:focus {
-            border-color: #4CAF50;
-            outline: none;
-        }
-
-        /* Botão de envio */
-        .submit-button {
-            width: 100%;
-            background: #ff9800;
-            color: white;
-            padding: 15px;
-            font-size: 18px;
-            font-weight: bold;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-transform: uppercase;
-            transition: 0.3s;
-        }
-
-        .submit-button:hover {
-            background: #e68900;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="form-container">
-        <h2>Finalizar Compra</h2>
-        <form action="pagamento.html" method="POST">
-            <label for="name">Nome Completo</label>
-            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
-
-            <label for="contact">Telefone ou E-mail</label>
-            <input type="text" id="contact" name="contact" placeholder="Informe seu telefone ou e-mail" required>
-
-            <label for="address">Endereço Completo</label>
-            <input type="text" id="address" name="address" placeholder="Rua, número, bairro, cidade" required>
-
-            <button type="submit" class="submit-button">Finalizar Compra</button>
-        </form>
+ <head nonce="">
+  <meta charset="utf-8">
+  <title>Investimentos do Zero - Rodrigo dos Santos Marroni | Hotmart</title>
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="keywords">
+  <meta name="abstract" content="Um espaço online para você aprender tudo sobre Finanças e Investimentos">
+  <meta name="title" property="og:title" content="Investimentos do Zero - Rodrigo dos Santos Marroni | Hotmart">
+  <meta name="image" property="og:image" content="https://hotmart.s3.amazonaws.com/product_pictures/eedb9d21-279b-475e-8740-aeb9be960d6c/logotipoinvestimentos.png">
+  <meta name="url" property="og:url" content="https://hotmart.com/pt-br/marketplace/produtos/investimentos-do-zero-foohe/E74257539X">
+  <meta name="description" property="og:description" content="Um espaço online para você aprender tudo sobre Finanças e Investimentos">
+  <meta name="video" property="og:video" content="">
+  <meta name="site_name" property="og:site_name" content="Hotmart">
+  <meta name="type" property="og:type" content="Product">
+  <meta name="locale" property="og:locale" content="pt-br">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@hotmart">
+  <meta name="twitter:url" content="https://hotmart.com/pt-br/marketplace/produtos/investimentos-do-zero-foohe/E74257539X">
+  <meta name="twitter:title" content="Investimentos do Zero - Rodrigo dos Santos Marroni | Hotmart">
+  <meta name="twitter:description" content="Um espaço online para você aprender tudo sobre Finanças e Investimentos">
+  <meta name="twitter:image" content="https://hotmart.s3.amazonaws.com/product_pictures/eedb9d21-279b-475e-8740-aeb9be960d6c/logotipoinvestimentos.png">
+  <meta name="theme-color" content="#F04E23">
+  <meta name="msapplication-TileColor" content="#F04E23">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Investimentos do Zero - Rodrigo dos Santos Marroni">
+  <meta name="application-name" content="Investimentos do Zero - Rodrigo dos Santos Marroni">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="product-category" content="finance">
+  <meta name="product-format" content="online_services">
+  <meta name="product-has-video" content="false">
+  <link rel="canonical" href="https://hotmart.com/pt-br/marketplace/produtos/investimentos-do-zero-foohe/E74257539X">
+  <link rel="preload" as="image" imagesrcset="https://static-media.hotmart.com/1IaWga4v6OQ6igvc7rAHLMHb-js=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/eedb9d21-279b-475e-8740-aeb9be960d6c/logotipoinvestimentos.png?w=360 360w, https://static-media.hotmart.com/1IaWga4v6OQ6igvc7rAHLMHb-js=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/eedb9d21-279b-475e-8740-aeb9be960d6c/logotipoinvestimentos.png?w=920 920w" imagesizes="100vw">
+  <link rel="preload" as="image" imagesrcset="https://hotmart.com/product/static/images/organic/signup-modal-image-woman.png?w=920 1x">
+  <meta name="next-head-count" content="31">
+  <link rel="dns-prefetch" href="https://static.hotjar.com">
+  <link rel="dns-prefetch" href="https://script.hotjar.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://api-thumbor.hotmart.com">
+  <link rel="dns-prefetch" href="https://static-media.hotmart.com">
+  <base href="/">
+  <link rel="icon" type="image/png" sizes="16x16" href="product/static/images/favicon/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link nonce="" rel="preload" href="/product/_next/static/css/f635865f04a0d6ba.css" as="style">
+  <link nonce="" rel="stylesheet" href="/product/_next/static/css/f635865f04a0d6ba.css" data-n-g="">
+  <link nonce="" rel="preload" href="/product/_next/static/css/4febe359b8314f11.css" as="style">
+  <link nonce="" rel="stylesheet" href="/product/_next/static/css/4febe359b8314f11.css" data-n-p="">
+  <link nonce="" rel="preload" href="/product/_next/static/css/422e6c4e7c55174e.css" as="style">
+  <link nonce="" rel="stylesheet" href="/product/_next/static/css/422e6c4e7c55174e.css" data-n-p="">
+  <noscript data-n-css="48+95pfV7qT6bjEFS8qi/zZlfvJfBchyRcvyihJwYmU="></noscript> 
+  <style data-href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&amp;display=swap">@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:400;font-stretch:normal;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilntw.woff) format('woff')}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:700;font-stretch:normal;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GMS5ntw.woff) format('woff')}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t4R-tQKr51pE8.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7txR-tQKr51pE8.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t6R-tQKr51pE8.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t7R-tQKr51pE8.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t1R-tQKr51.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t4R-tQKr51pE8.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7txR-tQKr51pE8.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t6R-tQKr51pE8.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t7R-tQKr51pE8.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Nunito Sans';font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t1R-tQKr51.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+ </head>
+ <body style="overflow: initial;">
+  <hotmart-cookie-policy>
+   <div id="hotmart-cookie-policy" class="hotmart-cookie-policy-container" style="z-index: 999999; text-align: initial;">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700" rel="stylesheet">
+   </div>
+  </hotmart-cookie-policy>
+  <hotmart-cookie-policy>
+   <div id="hotmart-cookie-policy" class="hotmart-cookie-policy-container" style="z-index: 999999; text-align: initial;">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700" rel="stylesheet">
+   </div>
+   <div id="hotmart-cookie-policy" class="hotmart-cookie-policy-container" style="z-index: 999999; text-align: initial;">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700" rel="stylesheet">
+   </div>
+  </hotmart-cookie-policy>
+  <noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQFMS3D" height="0" width="0" style="-marketplace:none;visibility:hidden"></iframe>
+  </noscript>
+  <div id="__next"> 
+   <div class="body-redesign">
+    <div class="shortcuts">
+     <a class="sr-only sr-only-focusable" tabindex="0" accesskey="1" data-testid="main-content" href="/marketplace/produtos/investimentos-do-zero-foohe/E74257539X?sck=HOTMART_SITE&amp;search=8bd73e9a-4219-4a1d-a42c-8f2a6388b548&amp;hotfeature=33#text_description"><span>Ir para o conteúdo principal</span></a>
+     <a class="sr-only sr-only-focusable" tabindex="0" accesskey="2" data-testid="checkout-content" href="/marketplace/produtos/investimentos-do-zero-foohe/E74257539X?sck=HOTMART_SITE&amp;search=8bd73e9a-4219-4a1d-a42c-8f2a6388b548&amp;hotfeature=33#payment"><span>Ir para o pagamento</span></a>
+     <a class="sr-only sr-only-focusable" tabindex="0" accesskey="3" data-testid="language-content" href="/marketplace/produtos/investimentos-do-zero-foohe/E74257539X?sck=HOTMART_SITE&amp;search=8bd73e9a-4219-4a1d-a42c-8f2a6388b548&amp;hotfeature=33#hm-mktplace-footer"><span>Ir para o rodapé</span></a>
     </div>
-
-</body>
-</html>
+    <div style="display:contents">
+     <div class="header-marketplace">
+      <div class="hm-mktplace-header__container">
+       <div class="hm-mktplace-header__container--center hm-mktplace-header--placeholder" role="region">
+        <button class="hm-burger-button" aria-label="Menu">
+         <svg id="hm-mktplace-menu__mobile" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.5 4.75c0-.375.328-.75.75-.75h19.5c.375 0 .75.375.75.75 0 .422-.375.75-.75.75H2.25a.74.74 0 0 1-.75-.75Zm0 7.5c0-.375.328-.75.75-.75h19.5c.375 0 .75.375.75.75 0 .422-.375.75-.75.75H2.25a.74.74 0 0 1-.75-.75Zm20.25 8.25H2.25a.74.74 0 0 1-.75-.75c0-.375.328-.75.75-.75h19.5c.375 0 .75.375.75.75 0 .422-.375.75-.75.75Z" fill="#191C1F"></path>
+         </svg></button>
+        <div class="hm-mktplace-header__logo hm-mktplace-header__logo--loading hm-mktplace-header__logo--placeholder hm-mktplace-header__logo--marketplace">
+         <a href="https://hotmart.com/pt-br/marketplace" class="hm-mktplace-header__logo__link" aria-label="Ir para a página inicial" data-gtm-event="True" data-event-category="Product:Header:New" data-event-action="Click:Logo:Home" data-event-label="Home">
+          <svg width="132" height="24" viewbox="0 0 132 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M17.6172 16.3439V7.47919C17.6172 7.44071 17.6554 7.40222 17.6936 7.40222H19.3866C19.4375 7.40222 19.4629 7.44071 19.4629 7.47919V10.6736H19.4884C19.9339 10.1091 20.6086 9.85254 21.3596 9.85254C22.6962 9.85254 23.1163 10.7249 23.1163 11.8923V16.3568C23.1163 16.3953 23.0908 16.4337 23.0399 16.4337H21.3469C21.296 16.4337 21.2705 16.3953 21.2705 16.3568V12.0463C21.2705 11.5459 20.7486 11.392 20.4177 11.392C20.0867 11.392 19.4757 11.6101 19.4757 12.2387V16.3439C19.4757 16.3824 19.4502 16.4209 19.3993 16.4209H17.6936C17.6554 16.4209 17.6172 16.3953 17.6172 16.3439Z" fill="#053D4E"></path>
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M31.1107 14.5993V11.5332H30.3342C30.2833 11.5332 30.2578 11.4947 30.2578 11.4562V10.3529C30.2578 10.3144 30.2833 10.2888 30.3087 10.2759C30.3342 10.2631 31.3398 9.96805 31.3398 9.96805C31.3398 9.96805 31.8872 8.23615 31.8999 8.2105C31.9126 8.18484 31.9381 8.15918 31.9763 8.15918H32.8928C32.931 8.15918 32.9692 8.18484 32.9692 8.23615V9.96805H34.3312C34.3694 9.96805 34.4076 9.99371 34.4076 10.045V11.4434C34.4076 11.4947 34.3694 11.5203 34.3312 11.5203H32.9692V14.3812C32.9692 14.6762 33.1347 14.8558 33.542 14.8558H34.3312C34.3821 14.8558 34.4076 14.9072 34.4076 14.9328V16.1644C34.4076 16.2029 34.3694 16.2285 34.3567 16.2414C33.873 16.421 33.6056 16.5364 33.0583 16.5364C31.6708 16.5621 31.1107 15.741 31.1107 14.5993Z" fill="#053D4E"></path>
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M57.5872 14.5993V11.5332H56.8107C56.7598 11.5332 56.7344 11.4947 56.7344 11.4562V10.3529C56.7344 10.3144 56.7598 10.2888 56.7853 10.2759C56.8108 10.2631 57.8164 9.96805 57.8164 9.96805C57.8164 9.96805 58.3637 8.23615 58.3765 8.2105C58.3892 8.18484 58.4146 8.15918 58.4528 8.15918H59.3693C59.4075 8.15918 59.4457 8.18484 59.4457 8.23615V9.96805H60.8078C60.846 9.96805 60.8841 9.99371 60.8841 10.045V11.4434C60.8841 11.4947 60.846 11.5203 60.8078 11.5203H59.4457V14.3812C59.4457 14.6762 59.6112 14.8558 60.0185 14.8558H60.8078C60.8587 14.8558 60.8841 14.9072 60.8841 14.9328V16.1644C60.8841 16.2029 60.846 16.2285 60.8332 16.2414C60.3495 16.421 60.0822 16.5364 59.5348 16.5364C58.1473 16.5621 57.5872 15.741 57.5872 14.5993Z" fill="#053D4E"></path>
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M35.5273 16.3439V10.0578C35.5273 10.0065 35.5655 9.98083 35.6037 9.98083H37.1312C37.1694 9.98083 37.1949 10.0065 37.2076 10.0321C37.2203 10.0578 37.3858 10.6736 37.3858 10.6736H37.4113C37.8568 10.1091 38.5315 9.85254 39.2698 9.85254C40.1736 9.85254 40.6191 10.2631 40.861 10.8917H40.9119C41.3701 10.1219 42.1721 9.85254 42.9231 9.85254C44.2597 9.85254 44.6798 10.7249 44.6798 11.8923V16.3568C44.6798 16.4081 44.6416 16.4337 44.6034 16.4337H42.8977C42.8467 16.4337 42.8213 16.3953 42.8213 16.3568V12.0848C42.8213 11.5844 42.3503 11.392 42.0193 11.392C41.6374 11.392 41.0646 11.6358 41.0392 12.2002V16.3568C41.0392 16.3953 41.0137 16.4337 40.9628 16.4337H39.2571C39.2189 16.4337 39.1807 16.3953 39.1807 16.3568V12.0848C39.1807 11.5844 38.6842 11.392 38.3151 11.392C37.9841 11.392 37.3858 11.6486 37.3858 12.29V16.3696C37.3858 16.4081 37.3604 16.4466 37.3095 16.4466H35.6164C35.5528 16.4337 35.5273 16.3824 35.5273 16.3439Z" fill="#053D4E"></path>
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M49.0841 13.6371H48.0658C47.5311 13.6371 47.1747 13.8423 47.1747 14.4196C47.1747 15.0482 47.6202 15.1893 48.053 15.1893C48.4476 15.1893 49.0841 14.9456 49.0841 14.1502V13.6371ZM45.7999 11.392V10.2246C45.7999 10.1861 45.8381 10.1476 45.8636 10.1476C46.7419 9.968 47.5566 9.85254 48.3331 9.85254C49.9752 9.85254 50.9299 10.2502 50.9299 12.0334V16.3568C50.9299 16.4081 50.8917 16.4337 50.8535 16.4337H49.2369C49.1987 16.4337 49.1732 16.4081 49.1605 16.3696C49.1477 16.3311 48.9823 15.7282 48.9823 15.7282H49.0586C48.6004 16.3696 47.9894 16.5492 47.2383 16.5492C46.029 16.5492 45.3926 15.6127 45.3926 14.4966C45.3926 12.816 46.6146 12.4825 47.5184 12.4825H49.0714V12.0591C49.0714 11.5203 48.6768 11.4177 47.2001 11.4177C46.5764 11.4177 45.9018 11.469 45.8636 11.469C45.8381 11.469 45.7999 11.4433 45.7999 11.392Z" fill="#053D4E"></path>
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M52.0117 16.3439V10.0578C52.0117 10.0193 52.0499 9.98083 52.0881 9.98083H53.6029C53.6411 9.98083 53.6793 10.0065 53.6793 10.045C53.692 10.0835 53.8575 11.02 53.8575 11.02H53.8829C54.2903 10.1733 55.1304 9.86537 55.856 9.85254C55.8942 9.85254 55.9324 9.8782 55.9324 9.92951V11.6871C55.9324 11.7384 55.8942 11.764 55.856 11.764H55.4232C54.2521 11.764 53.8575 12.2387 53.8575 12.816V16.3439C53.8575 16.3953 53.8193 16.4209 53.7811 16.4209H52.0881C52.0499 16.4337 52.0117 16.3953 52.0117 16.3439Z" fill="#053D4E"></path>
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M25.9048 13.2009C25.9048 14.3042 26.0702 14.9969 26.9486 14.9969C27.8396 14.9969 28.0051 14.317 28.0051 13.2009C28.0051 12.0976 27.8396 11.4177 26.9486 11.4177C26.0702 11.4177 25.9048 12.0976 25.9048 13.2009ZM23.9062 13.2009C23.9062 11.1483 24.6955 9.83972 26.9486 9.83972C29.2144 9.83972 30.0164 11.1483 30.0164 13.2009C30.0164 15.2663 29.2271 16.5621 26.9486 16.5621C24.6955 16.5621 23.9062 15.2663 23.9062 13.2009Z" fill="#053D4E"></path>
+           <mask id="mask0_1325_42515" maskunits="userSpaceOnUse" x="0" y="0" width="15" height="20">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14.1423V19.6923H0V0Z" fill="white"></path>
+           </mask>
+           <g mask="url(#mask0_1325_42515)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.03969 15.869C5.23212 15.8561 3.76824 14.368 3.7937 12.5335C3.80643 10.7118 5.28304 9.23644 7.10334 9.2621C8.91091 9.27493 10.3748 10.7631 10.3493 12.5976C10.3366 14.4193 8.85999 15.8818 7.03969 15.869ZM14.1427 12.5591C14.2318 10.8016 13.6335 7.92789 12.1696 5.58021C12.1314 5.51607 12.0678 5.54173 12.0805 5.60587C12.1824 5.96508 12.1951 6.60652 11.635 6.56804C10.6294 6.50389 11.6732 4.34864 9.471 2.84766C9.43281 2.82201 9.36917 2.86049 9.39462 2.91181C9.54738 3.20687 9.63648 4.10489 9.29279 4.41279C9.01274 4.65653 8.50357 4.59239 8.00712 3.78417C7.17971 2.43714 7.49795 0.987478 8.05804 0.0894578C8.09623 0.0253134 8.04531 -0.000344305 7.99439 0.0124846C4.9648 1.01314 4.36652 4.60522 3.73005 5.91376C3.62822 6.13185 3.52638 6.24731 3.34817 6.23448C2.80081 6.196 3.19542 5.01574 3.38636 4.60522C3.41182 4.54107 3.34817 4.51542 3.30998 4.5539C1.74427 6.18317 0.331308 8.97986 0.0639911 11.5713C0.0767205 11.5071 0.0385323 11.7894 0.025803 11.9818C0.025803 12.0588 0.0130736 12.1358 0.0130736 12.2256C0.000344218 12.3154 0.000344217 12.418 0.000344217 12.5078C-0.0378439 16.4463 3.10631 19.6535 7.01423 19.692C10.9221 19.7305 14.1045 16.5617 14.1427 12.6233C14.1427 12.5976 14.1427 12.5848 14.1427 12.5591Z" fill="#F04E23"></path>
+           </g>
+           <path d="M73.295 7.20984V16.5621H72.3021L72.3148 9.3266L69.298 15.0868H68.5342L65.5046 9.37792L65.5173 16.5621H64.5117V7.20984H65.4028L68.9161 13.9835L72.3912 7.20984H73.295Z" fill="#053D4E"></path>
+           <path d="M79.5965 10.571C79.9911 10.9943 80.1947 11.6358 80.1947 12.4825V16.5492H79.1509V15.446C78.9854 15.8308 78.7309 16.1259 78.3872 16.3312C78.0435 16.5364 77.6489 16.6391 77.2033 16.6391C76.796 16.6391 76.4141 16.5492 76.0704 16.3825C75.7267 16.2157 75.4467 15.9848 75.243 15.6769C75.0393 15.3818 74.9375 15.0483 74.9375 14.6762C74.9375 14.1887 75.0648 13.8167 75.3066 13.5473C75.5485 13.2779 75.9558 13.0855 76.5159 12.97C77.076 12.8545 77.8525 12.7904 78.8581 12.7904H79.1509V12.3542C79.1509 11.8154 79.0364 11.4177 78.82 11.1868C78.6036 10.943 78.2471 10.8276 77.7507 10.8276C77.0124 10.8276 76.2868 11.0585 75.5485 11.5203L75.1921 10.7378C75.5231 10.494 75.9304 10.3016 76.4014 10.1605C76.8724 10.0194 77.3306 9.94238 77.7634 9.94238C78.5908 9.94238 79.2018 10.1605 79.5965 10.571ZM78.6545 15.2664C78.9982 14.9072 79.1637 14.4453 79.1637 13.8808V13.496H78.9218C78.1453 13.496 77.5597 13.5345 77.1524 13.5986C76.7451 13.6628 76.465 13.7782 76.2868 13.9322C76.1213 14.0861 76.0322 14.317 76.0322 14.6121C76.0322 14.9585 76.1595 15.2407 76.4014 15.4716C76.656 15.7025 76.9615 15.8052 77.3433 15.8052C77.878 15.8052 78.3108 15.6256 78.6545 15.2664Z" fill="#053D4E"></path>
+           <path d="M85.5156 10.8789L84.8155 10.943C84.1536 11.0072 83.6826 11.2124 83.3898 11.5716C83.097 11.9308 82.9443 12.367 82.9443 12.8802V16.5621H81.875V10.1091H82.9188V11.2381C83.2752 10.4812 83.9881 10.0707 85.0319 9.98086L85.4138 9.9552L85.5156 10.8789Z" fill="#053D4E"></path>
+           <path d="M90.5936 16.5621L87.3349 13.4703V16.5621H86.2656V7.20984H87.3349V13.0341L90.3263 10.122H91.6756L88.4933 13.2137L91.9811 16.5749H90.5936V16.5621Z" fill="#053D4E"></path>
+           <path d="M97.8377 13.496H93.1532C93.1914 14.2529 93.3951 14.8174 93.7643 15.2022C94.1334 15.5871 94.6553 15.7795 95.33 15.7795C96.081 15.7795 96.7557 15.5229 97.3794 15.0098L97.7358 15.7923C97.4558 16.0618 97.0994 16.267 96.6538 16.421C96.221 16.5749 95.7628 16.6519 95.3172 16.6519C94.3116 16.6519 93.5351 16.3568 92.9496 15.7667C92.3768 15.1766 92.084 14.3555 92.084 13.3164C92.084 12.6493 92.2113 12.072 92.4659 11.5588C92.7205 11.0457 93.0769 10.6608 93.5351 10.3657C93.9934 10.0835 94.5153 9.94238 95.1136 9.94238C95.9664 9.94238 96.6284 10.2246 97.1121 10.7891C97.5958 11.3536 97.8377 12.1233 97.8377 13.0983V13.496ZM93.777 11.3151C93.4333 11.6743 93.2424 12.1746 93.1787 12.816H96.9084C96.8957 12.1618 96.7302 11.6615 96.4247 11.3151C96.1192 10.9687 95.6864 10.7891 95.139 10.7891C94.5662 10.7763 94.108 10.9559 93.777 11.3151Z" fill="#053D4E"></path>
+           <path d="M102.497 15.7539L102.446 16.6006C102.242 16.6391 102.026 16.6519 101.784 16.6519C101.007 16.6519 100.435 16.4466 100.04 16.0361C99.6455 15.6256 99.4545 15.0611 99.4545 14.3427V10.9559H98.207V10.1092H99.4545V8.14636H100.524V10.1092H102.344V10.9559H100.524V14.2657C100.524 15.2792 100.995 15.7924 101.924 15.7924C102.102 15.7924 102.293 15.7795 102.497 15.7539Z" fill="#053D4E"></path>
+           <path d="M108.02 10.3657C108.453 10.648 108.784 11.0457 109.026 11.5588C109.268 12.072 109.382 12.6621 109.382 13.3292C109.382 13.9963 109.268 14.5864 109.026 15.0868C108.784 15.5871 108.453 15.972 108.033 16.2414C107.613 16.5108 107.104 16.6519 106.544 16.6519C106.047 16.6519 105.602 16.5364 105.233 16.3183C104.864 16.1002 104.571 15.7795 104.38 15.3818V18.9482H103.311V10.0963H104.38V11.2124C104.571 10.8019 104.851 10.494 105.233 10.2759C105.602 10.0578 106.047 9.94238 106.544 9.94238C107.091 9.94238 107.588 10.0835 108.02 10.3657ZM107.766 15.1381C108.11 14.7147 108.275 14.1118 108.275 13.3292C108.275 12.5466 108.11 11.9437 107.766 11.5075C107.422 11.0713 106.938 10.8532 106.315 10.8532C105.691 10.8532 105.207 11.0713 104.876 11.4947C104.533 11.918 104.367 12.521 104.367 13.3164C104.367 14.0989 104.533 14.7147 104.876 15.1381C105.22 15.5614 105.691 15.7795 106.315 15.7795C106.938 15.7667 107.422 15.5614 107.766 15.1381Z" fill="#053D4E"></path>
+           <path d="M110.707 7.20984H111.776V16.5621H110.707V7.20984Z" fill="#053D4E"></path>
+           <path d="M117.925 10.571C118.319 10.9943 118.523 11.6358 118.523 12.4825V16.5492H117.479V15.446C117.314 15.8308 117.059 16.1259 116.715 16.3312C116.372 16.5364 115.977 16.6391 115.531 16.6391C115.124 16.6391 114.742 16.5492 114.399 16.3825C114.055 16.2157 113.775 15.9848 113.571 15.6769C113.367 15.3818 113.266 15.0483 113.266 14.6762C113.266 14.1887 113.393 13.8167 113.635 13.5473C113.877 13.2779 114.284 13.0855 114.844 12.97C115.404 12.8545 116.181 12.7904 117.186 12.7904H117.479V12.3542C117.479 11.8154 117.364 11.4177 117.148 11.1868C116.932 10.943 116.575 10.8276 116.079 10.8276C115.341 10.8276 114.615 11.0585 113.877 11.5203L113.52 10.7378C113.851 10.494 114.259 10.3016 114.73 10.1605C115.2 10.0194 115.659 9.94238 116.092 9.94238C116.919 9.94238 117.517 10.1605 117.925 10.571ZM116.97 15.2664C117.314 14.9072 117.479 14.4453 117.479 13.8808V13.496H117.237C116.461 13.496 115.875 13.5345 115.468 13.5986C115.06 13.6628 114.78 13.7782 114.602 13.9322C114.437 14.0861 114.348 14.317 114.348 14.6121C114.348 14.9585 114.475 15.2407 114.717 15.4716C114.971 15.7025 115.277 15.8052 115.659 15.8052C116.206 15.8052 116.639 15.6256 116.97 15.2664Z" fill="#053D4E"></path>
+           <path d="M121.272 16.2414C120.801 15.9719 120.445 15.5743 120.203 15.0868C119.949 14.5864 119.834 13.9963 119.834 13.3292C119.834 12.6621 119.961 12.072 120.216 11.5588C120.47 11.0457 120.84 10.6608 121.311 10.3657C121.782 10.0835 122.329 9.94238 122.965 9.94238C123.398 9.94238 123.818 10.0194 124.226 10.1733C124.633 10.3272 124.977 10.5325 125.231 10.7891L124.875 11.5845C124.264 11.0842 123.653 10.8404 123.029 10.8404C122.367 10.8404 121.858 11.0585 121.489 11.4947C121.12 11.9309 120.941 12.5338 120.941 13.3292C120.941 14.1118 121.12 14.7147 121.489 15.1381C121.858 15.5614 122.367 15.7795 123.029 15.7795C123.653 15.7795 124.264 15.5358 124.875 15.0354L125.231 15.8308C124.964 16.0874 124.62 16.2927 124.2 16.4466C123.793 16.6006 123.36 16.6775 122.927 16.6775C122.278 16.6519 121.731 16.5236 121.272 16.2414Z" fill="#053D4E"></path>
+           <path d="M131.609 13.496H126.925C126.963 14.2529 127.167 14.8174 127.536 15.2022C127.905 15.5871 128.427 15.7795 129.101 15.7795C129.853 15.7795 130.527 15.5229 131.151 15.0098L131.507 15.7923C131.227 16.0618 130.871 16.267 130.425 16.421C129.993 16.5749 129.534 16.6519 129.089 16.6519C128.083 16.6519 127.307 16.3568 126.721 15.7667C126.148 15.1766 125.855 14.3555 125.855 13.3164C125.855 12.6493 125.983 12.072 126.237 11.5588C126.492 11.0457 126.848 10.6608 127.307 10.3657C127.765 10.0835 128.287 9.94238 128.885 9.94238C129.738 9.94238 130.4 10.2246 130.884 10.7891C131.367 11.3536 131.609 12.1233 131.609 13.0983V13.496ZM127.548 11.3151C127.205 11.6743 127.014 12.1746 126.95 12.816H130.68C130.667 12.1618 130.502 11.6615 130.196 11.3151C129.891 10.9687 129.458 10.7891 128.911 10.7891C128.338 10.7763 127.892 10.9559 127.548 11.3151Z" fill="#053D4E"></path>
+          </svg></a>
+        </div>
+        <div class="hm-mktplace-header__categories-container">
+         <button id="hm-mktplace-header__categories" class="hm-mktplace-header__user hm-mktplace-header__categories hm-mktplace-header__title">Categorias
+          <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.412C0 .632.672 0 1.5 0S3 .632 3 1.412c0 .78-.672 1.412-1.5 1.412S0 2.19 0 1.412Zm1.5.47c-.276 0-.5-.21-.5-.47s.224-.47.5-.47.5.21.5.47-.224.47-.5.47ZM0 8c0-.78.672-1.412 1.5-1.412S3 7.22 3 8c0 .78-.672 1.412-1.5 1.412S0 8.78 0 8Zm1.5.47c-.276 0-.5-.21-.5-.47s.224-.47.5-.47.5.21.5.47-.224.47-.5.47ZM1.5 13.177c-.828 0-1.5.632-1.5 1.411C0 15.368.672 16 1.5 16S3 15.368 3 14.588c0-.78-.672-1.411-1.5-1.411ZM1 14.588c0 .26.224.47.5.47s.5-.21.5-.47-.224-.47-.5-.47-.5.21-.5.47Z" fill="#191C1F"></path>
+           <path d="M5.5.941c-.276 0-.5.21-.5.47s.224.471.5.471h10c.276 0 .5-.21.5-.47s-.224-.47-.5-.47h-10ZM5 8c0-.26.224-.47.5-.47h10c.276 0 .5.21.5.47s-.224.47-.5.47h-10c-.276 0-.5-.21-.5-.47ZM5.5 14.118c-.276 0-.5.21-.5.47s.224.47.5.47h10c.276 0 .5-.21.5-.47s-.224-.47-.5-.47h-10Z" fill="#191C1F"></path>
+          </svg></button>
+        </div>
+        <div class="hm-mktplace-header__search">
+         <div class="hm-mktplace-search__container hm-mktplace-search__container--underneath">
+          <div class="hm-mktplace-search-bar">
+           <form method="get" action="#">
+            <div class="hm-mktplace-search__autocomplete hm-mktplace-search__autocomplete--show-shadow">
+             <div class="hm-mktplace-search__autocomplete__input">
+              <input type="text" name="q" class="hm-mktplace-search__autocomplete__input__field" placeholder="O que você quer aprender?" maxlength="50" autocomplete="off">
+             </div>
+             <button type="submit" class="hm-mktplace-search__autocomplete__searchSubmit" aria-label="Buscar">
+              <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" clip-rule="evenodd" d="M15.292 16a8 8 0 1 1 .707-.707l5.855 5.853a.5.5 0 0 1-.708.708l-5.854-5.855ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" fill="#191C1F"></path>
+              </svg></button>
+            </div>
+           </form>
+          </div>
+         </div>
+        </div>
+        <div class="hm-mktplace-header__action hm-mktplace-header__action--logged-out">
+         <div class="hm-mktplace-menu__header__avatar--mobile hm-mktplace-menu__placeholder">
+          <div class="hm-mktplace-header__action">
+           <span class="hm-search-close-button hm-search-close-button--closed">
+            <svg class="hm-search-close-button__icon-search" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path fill-rule="evenodd" clip-rule="evenodd" d="M15.292 16a8 8 0 1 1 .707-.707l5.855 5.853a.5.5 0 0 1-.708.708l-5.854-5.855ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" fill="#191C1F"></path>
+            </svg></span>
+          </div>
+         </div>
+         <a href="#" class="hm-mktplace-header__organic" data-gtm-event="True" data-event-category="Product:Header:New" data-event-action="Click:OrganicSignup" data-event-label="Signup"><span class="hm-mktplace-header__organic--mobile">Ensine Aqui</span><span class="hm-mktplace-header__organic--desktop">Ensine na Hotmart</span></a>
+         <a href="#" class="hm-mktplace-header__session__signin hm-mktplace-header__title" data-gtm-event="True" data-event-category="Product:Header:New" data-event-action="Click:SignIn" data-event-label="SignIn"><span>Entrar</span></a>
+         <a href="#" target="_new" class="hm-mktplace-header__session__signup hm-mktplace-header__title hm-mktplace-header__session__signup--active" data-gtm-event="True" data-event-category="Product:Header:New" data-event-action="Click:Register" data-event-label="Register"><span>Cadastrar</span></a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="redesigned-content">
+     <div class="content-center redesigned-grid _mt-md-4 content-center--marketplace" role="main">
+      <div class="column-content">
+       <div class="section-navigation _pt-9 _pt-md-11"> 
+        <div role="navigation" class="_w-full _border-bottom">
+         <div class="breadcrumbs breadcrumbs--redesigned _mx-auto _w-full">
+          <div class="breadcrumbs__section _w-full _justify-content-between">
+           <span class="breadcrumbs__category-label__ellipsis _font-weight-bold">Investimentos do Zero</span>
+          </div>
+          <div class="breadcrumbs__dropdown">
+           <hot-dropdown class="dropdown" menu-side="right">
+            <button type="button" slot="button" class="hot-button--tertiary _text-2 _text-gray-500 ellipsis-button dropdown-menu hot-button"><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2714%27%20height=%2714%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="https://hotmart.com/product/static/images/icons/ellipsis.svg?w=360" decoding="async" data-nimg="intrinsic" class="image-icon dropdown-icon" srcset="https://hotmart.com/product/static/images/icons/ellipsis.svg?w=360 1x" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+              <noscript></noscript></span></button>
+            <hot-dropdown-menu-header slot="menu">
+             Categorias
+            </hot-dropdown-menu-header>
+            <hot-dropdown-menu-item slot="menu" class="" tabindex="0">
+             <a href="https://hotmart.com/pt-br/marketplace/categorias/financas-e-negocios">
+              <div class="_d-flex">
+               <span class="dropdown-item">Finanças e negócios</span>
+              </div></a>
+            </hot-dropdown-menu-item>
+            <hot-dropdown-menu-header slot="menu">
+             Subcategorias
+            </hot-dropdown-menu-header>
+            <hot-dropdown-menu-item slot="menu" class="" tabindex="0">
+             <a href="https://hotmart.com/pt-br/marketplace/categorias/financas-e-negocios/investimentos">
+              <div class="_d-flex">
+               <span class="dropdown-item">Investimentos</span>
+              </div></a>
+            </hot-dropdown-menu-item>
+            <hot-dropdown-menu-header slot="menu">
+             Geral
+            </hot-dropdown-menu-header>
+            <hot-dropdown-menu-item slot="menu" class="" tabindex="0">
+             <a href="https://hotmart.com/pt-br/marketplace?sck=HOTMART_SITE">
+              <div class="_d-flex">
+               <div class="_h-4 _w-4 _text-gray-900">
+                <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2714%27%20height=%2714%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+                 <noscript></noscript></span> 
+               </div>
+               <span class="dropdown-item dropdown-item--icon">Home</span>
+              </div></a>
+            </hot-dropdown-menu-item>
+           </hot-dropdown>
+          </div>
+         </div>
+        </div>
+       </div>
+       <section class="section _mt-md-4" id="title">
+        <div class="_d-flex">
+         <div class="redesigned-main-title-image _mr-4">
+          <div class="product-image-wrapper" tabindex="-1">
+           <span style="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;padding-top:100%"></span><img data-testid="content-image" alt="" role="presentation" sizes="100vw" srcset="https://static-media.hotmart.com/1IaWga4v6OQ6igvc7rAHLMHb-js=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/eedb9d21-279b-475e-8740-aeb9be960d6c/logotipoinvestimentos.png?w=360 360w, https://static-media.hotmart.com/1IaWga4v6OQ6igvc7rAHLMHb-js=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/eedb9d21-279b-475e-8740-aeb9be960d6c/logotipoinvestimentos.png?w=920 920w" src="https://static-media.hotmart.com/1IaWga4v6OQ6igvc7rAHLMHb-js=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/eedb9d21-279b-475e-8740-aeb9be960d6c/logotipoinvestimentos.png?w=920" decoding="async" data-nimg="responsive" class="product-image" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"></span>
+          </div>
+          <hot-modal class="" position="centered">
+           <hot-modal-body>
+            <hot-modal-header></hot-modal-header>
+            <div class="_d-flex _justify-content-center _flex-column _w-full">
+             <div class="product-image-modal__share-spacing">
+              <div>
+               <hot-dropdown class="" menu-side="left">
+                <button type="button" slot="button" class="_d-flex _align-items-center _border-0 hot-button"><span class="_pr-2 redesign-share-button-text _text-decoration-underline _line-height-lg">Compartilhar</span><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2714%27%20height=%2714%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" srcset="https://hotmart.com/product/static/images/icons/share.svg?w=360 1x" src="https://hotmart.com/product/static/images/icons/share.svg?w=360" decoding="async" data-nimg="intrinsic" class="image-icon" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"></span></button>
+                <hot-dropdown-menu-item slot="menu" class="" tabindex="0">
+                 <a href="https://wa.me/?&amp;text=Confira este curso na Hotmart! https://hotmart.com/pt-br/marketplace/produtos/investimentos-do-zero-foohe/E74257539X?sck=HOTMART_SITE" aria-label="Compartilhar link no Whatsapp" target="_new" class="_text-gray-700">
+                  <div class="_d-flex">
+                   <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+                    <noscript></noscript></span>
+                   <span class="_pl-4">Whatsapp</span>
+                  </div></a>
+                </hot-dropdown-menu-item>
+                <hot-dropdown-menu-item slot="menu" class="" tabindex="0">
+                 <a class="_d-flex"><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+                   <noscript></noscript></span><span class="_pl-4 _text-gray-700 _text-decoration-underline">Copiar link</span></a>
+                </hot-dropdown-menu-item>
+               </hot-dropdown>
+              </div>
+             </div>
+             <div class="_mx-auto _my-8">
+              <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27536%27%20height=%27536%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="Illustration" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+               <noscript></noscript></span>
+             </div>
+            </div>
+           </hot-modal-body>
+          </hot-modal>
+         </div>
+         <div class="_flex-1">
+          <div class="rating-mobile _d-flex _justify-content-between">
+           <div class="_d-flex _align-items-center redesigned-main-title-icon">
+            <div class="rating rating--title colorText">
+             <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"></span><img alt="" src="https://hotmart.com/product/static/images/icons/star.svg?w=360" decoding="async" data-nimg="intrinsic" class="image-icon star" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" srcset="https://hotmart.com/product/static/images/icons/star.svg?w=360 1x"></span>
+            </div>
+            <div class="tags__rating-global">
+             <span class="rating-total">5.0</span>
+             <span class="tags__rating-global__total-reviews _text-gray-900">(1)</span>
+            </div>
+           </div>
+           <div>
+            <hot-dropdown class="" menu-side="left">
+             <button type="button" slot="button" class="_d-flex _align-items-center _border-0 hot-button"><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2714%27%20height=%2714%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="https://hotmart.com/product/static/images/icons/share.svg?w=360" decoding="async" data-nimg="intrinsic" class="image-icon" srcset="https://hotmart.com/product/static/images/icons/share.svg?w=360 1x" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+               <noscript></noscript></span></button>
+             <hot-dropdown-menu-item slot="menu" class="" tabindex="0">
+              <a href="https://wa.me/?&amp;text=Confira este curso na Hotmart! https://hotmart.com/pt-br/marketplace/produtos/investimentos-do-zero-foohe/E74257539X?sck=HOTMART_SITE" aria-label="Compartilhar link no Whatsapp" target="_new" class="_text-gray-700">
+               <div class="_d-flex">
+                <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+                 <noscript></noscript></span>
+                <span class="_pl-4">Whatsapp</span>
+               </div></a>
+             </hot-dropdown-menu-item>
+             <hot-dropdown-menu-item slot="menu" class="" tabindex="0">
+              <a class="_d-flex"><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+                <noscript></noscript></span><span class="_pl-4 _text-gray-700 _text-decoration-underline">Copiar link</span></a>
+             </hot-dropdown-menu-item>
+            </hot-dropdown>
+           </div>
+          </div>
+          <h1 class="redesigned-main-title-text redesigned-main-title-truncate _mt-0 _my-2 _font-weight-bold _line-height">Investimentos do Zero</h1>
+          <span class="redesigned-main-title-author _text-gray-900">Rodrigo dos Santos Marroni</span>
+         </div>
+        </div>
+        <div class="_text-1 _d-flex _flex-column _mt-4 _justify-content-between _p-3 _border _rounded-lg redesigned-main-title-tags">
+         <div>
+          <span class="_text-gray-600">Formato: </span>
+          <span class="_text-1">Cursos Online e Serviços de Assinatura</span>
+         </div>
+         <div class="_d-flex _align-items-center _pt-3">
+          <span>Idioma: </span>
+          <span class="_pl-3 _d-flex redesigned-main-title-icon"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"></span><img alt="" src="https://hotmart.com/product/static/images/icons/language-mobile.svg?w=360" decoding="async" data-nimg="intrinsic" class="image-icon" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" srcset="https://hotmart.com/product/static/images/icons/language-mobile.svg?w=360 1x"></span><span class="_pl-2 _text-1">Português</span></span>
+         </div>
+        </div>
+       </section>
+       <section class="section section-divider _pt-6 _pt-md-7" id="description">
+        <div class="_d-flex _w-full redesigned-main-container">
+         <div class="_flex-1">
+          <div class="_w-full _line-height-lg _text-gray-600">
+           <p role="paragraph">Aprenda como investir do zero muito além de calculos de renda fixa e ações. Crie uma mentalidade de investidor para investir mais e gastar menos em sua vida, aprenda como criar seu planejamento financeiro, alcançar suas metas e começar a investir a partir de milhas, CDBs, LCIs, Fundos e imobilizado.</p>
+          </div>
+         </div>
+        </div>
+       </section>
+       <section class="section section-divider">
+        <a href="https://club.hotmart.com/oauth/login?productId=2295160" target="_new" class="sidebar__access _text-md-1 _text-decoration-underline _text-decoration-underline _border-top">
+         <div class="_mr-1">
+          Acessar produto comprado
+         </div><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="https://hotmart.com/product/static/images/icons/back_button.png?w=360" decoding="async" data-nimg="intrinsic" class="image-icon sidebar__access-redesign" srcset="https://hotmart.com/product/static/images/icons/back_button.png?w=360 1x" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+          <noscript></noscript></span></a>
+       </section>
+       <section class="section section-divider" id="tabs">
+        <div>
+         <hot-nav classname="hot-nav--tabs">
+          <ul class="tab-content__list">
+           <li>
+            <hot-nav-item class="hot-nav__item--active" data-name="tab-modules" tabindex="0">
+             Conteúdo
+            </hot-nav-item></li>
+           <li>
+            <hot-nav-item class="" data-name="tab-advantages" tabindex="0">
+             Vantagens
+            </hot-nav-item></li>
+           <li>
+            <hot-nav-item class="" data-name="tab-details" tabindex="0">
+             Detalhes
+            </hot-nav-item></li>
+          </ul>
+         </hot-nav>
+         <div class="tab-content">
+          <div id="panel-0" class="content active">
+           <div class="accordion accordion__modules redesigned-modules" style="min-height: 75px;">
+            <hot-collapse id="">
+             <div class="accordion__item" tabindex="0" role="button" aria-label="Conteúdo Mentalidade de investidor">
+              <div class="accordion__heading">
+               <div class="_d-flex _flex-row _align-items-baseline">
+                <span class="accordion__section">01</span>
+                <div class="_d-flex">
+                 <span class="accordion__title">Mentalidade de investidor</span>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div slot="collapsed">
+              <ul class="accordion__description idented">
+               <li class="accordion__text hover clickable" tabindex="0">Comece por aqui</li>
+               <li class="accordion__text hover clickable" tabindex="0">Os ÚNICOS 2 tipos de investimentos</li>
+               <li class="accordion__text hover clickable" tabindex="0">Criando nossa base para investir</li>
+              </ul>
+             </div>
+            </hot-collapse>
+           </div>
+          </div>
+          <div id="panel-1" class="content hidden">
+           <div class="section" id="advantages" data-testid="product-advantages">
+            <div class="_w-full _line-height-lg _text-gray-600 product-description--hide">
+             <p class="_mb-5" role="paragraph">1. Acesso a um conteúdo completo e abrangente: O produto "Investimentos do Zero" oferece um conteúdo que vai além dos cálculos básicos de renda fixa e ações. Ele ensina como criar uma mentalidade de investidor, desenvolver um planejamento financeiro eficiente e alcançar metas financeiras. Isso permite que os usuários tenham uma visão mais ampla e completa sobre investimentos.</p>
+             <p class="_mb-5" role="paragraph">2. Aprendizado prático e aplicável: Além de fornecer informações teóricas, o produto também oferece orientações práticas sobre como começar a investir a partir de milhas, CDBs, LCIs, Fundos e imobilizado. Isso significa que os usuários poderão aplicar imediatamente o conhecimento adquirido e dar os primeiros passos no mundo dos investimentos.</p>
+             <p class="_mb-5" role="paragraph">3. Economia de tempo e dinheiro: Ao aprender como investir do zero de forma eficiente, os usuários poderão economizar tempo e dinheiro. Eles serão capazes de tomar decisões financeiras mais conscientes, evitar erros comuns de investimento e maximizar o retorno sobre seus investimentos. Isso resultará em uma melhor gestão financeira e em uma maior capacidade de alcançar objetivos financeiros de longo prazo.</p>
+            </div>
+            <div class="_mt-3 _font-weight-bold _text-decoration-underline _cursor-pointer">
+             <span class="_mr-2">Mostrar mais</span>
+             <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%276%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+              <noscript></noscript></span>
+            </div>
+           </div>
+          </div>
+          <div id="panel-2" class="content hidden">
+           <div class="product-data">
+            <div class="_d-flex _align-items-center _mb-4 _mr-5">
+             <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.73 10.781a.726.726 0 0 0 1.012 0l8.04-8.039a.726.726 0 0 0 0-1.012l-.985-.984a.693.693 0 0 0-.985 0L6.25 7.31 3.16 4.246a.693.693 0 0 0-.984 0l-.985.984a.726.726 0 0 0 0 1.012l4.54 4.54Z" fill="#000"></path>
+             </svg>
+             <div class="_font-weight _ml-4" aria-label="Garantia de 7 dias">
+              Garantia de 7 dias
+             </div>
+            </div>
+            <div class="_d-flex _align-items-center _mb-4 _mr-5">
+             <svg width="12" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.5 14a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Z" fill="#191C1F"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM1 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2Z" fill="#191C1F"></path>
+             </svg>
+             <div class="_font-weight _ml-4" aria-label="Estude do seu jeito e em qualquer dispositivo">
+              Estude do seu jeito e em qualquer dispositivo
+             </div>
+            </div>
+            <div class="_d-flex _align-items-center _mb-4 _mr-5">
+             <svg width="18" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M1 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3ZM0 3a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3Zm8 6.917L7 10.5v-7l1 .583 4.008 2.338L13 7l-.992.579L8 9.917ZM11.015 7 8 8.759V5.241L11.015 7Z" fill="#191C1F"></path>
+             </svg>
+             <div class="_font-weight _ml-4" aria-label="30 aulas e 6 horas de conteúdo original">
+              30 aulas e 6 horas de conteúdo original
+             </div>
+            </div>
+           </div>
+           <div class="_pt-4">
+            <span class="_text-3 _font-weight-bold">Para quem é esse produto?</span>
+            <p>Pessoas que querem começar a investir do Zero indo além de números.</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </section>
+       <section class="section section-divider" id="about-author">
+        <div class="_mb-5 _text-4 _text-md-5 _font-weight-bold ">
+         Saiba mais sobre quem criou o conteúdo
+        </div>
+        <div class="_d-flex _mt-3 _mb-4">
+         <div class="_w-10 _h-10 _flex-shrink-0">
+          <span style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px;"></span><img alt="" tabindex="-1" src="https://static-media.hotmart.com/2hTTb7NMnZ3rfPDQnR7ml20Kfhs=/140x140/smart/filters:format(webp):background_color(white)/hotmart/product_contents/27687c2d-ae56-4a45-8dd9-d2ebf2527848/rodrigomarroni_perfil.jpg?w=920" decoding="async" data-nimg="responsive" class="image-avatar" sizes="100vw" srcset="https://static-media.hotmart.com/2hTTb7NMnZ3rfPDQnR7ml20Kfhs=/140x140/smart/filters:format(webp):background_color(white)/hotmart/product_contents/27687c2d-ae56-4a45-8dd9-d2ebf2527848/rodrigomarroni_perfil.jpg?w=360 360w, https://static-media.hotmart.com/2hTTb7NMnZ3rfPDQnR7ml20Kfhs=/140x140/smart/filters:format(webp):background_color(white)/hotmart/product_contents/27687c2d-ae56-4a45-8dd9-d2ebf2527848/rodrigomarroni_perfil.jpg?w=920 920w" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+           <noscript></noscript></span>
+         </div>
+         <div class="_d-flex _justify-content-between _align-items-center _ml-3 _w-full">
+          <div class="_flex-column _justify-center creator_info">
+           <div class="_font-weight-bold _line-height-lg	_text-gray-800 _text-2">
+            Rodrigo dos Santos Marroni
+           </div>
+           <div class="_font-weight _line-height-lg	_text-gray-600 _text-1">
+            10 Anos Hotmarter
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="redesigned-author__social _my-4">
+         <a href="https://www.youtube.com/channel/UCJNCpEAggphdLIkQvOouynw?view_as=subscriber" target="_blank" rel="noreferrer" aria-label="Abrir redes sociais do Youtube"><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2762%27%20height=%2762%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="https://hotmart.com/product/static/images/icons/youtube-link.svg?w=360" decoding="async" data-nimg="intrinsic" class="image-icon" srcset="https://hotmart.com/product/static/images/icons/youtube-link.svg?w=360 1x" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+           <noscript></noscript></span></a>
+         <a href="https://instagram.com.br/rodrigomarronionline" target="_blank" rel="noreferrer" aria-label="Abrir redes sociais do Instagram"><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2762%27%20height=%2762%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="https://hotmart.com/product/static/images/icons/instagram-link.svg?w=360" decoding="async" data-nimg="intrinsic" class="image-icon" srcset="https://hotmart.com/product/static/images/icons/instagram-link.svg?w=360 1x" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+           <noscript></noscript></span></a>
+        </div>
+        <div class="_w-full _line-height-lg _text-gray-600">
+         <p role="paragraph">Especialista em milhas áreas e dinheiro no novo mundo. Criador do Método Milhas do Zero que ensino através de Programas com cursos, mentorias e acompanhamento. Ensino sobre como criar sua fonte de renda extra com milhas ou viajar de graça todo ano, utilizando seu cartão de crédito ou com compra e venda de Milhas para quem deseja começar do zero. Com mais de 100 alunos e mais de 1 milhão de milhas geradas pelos alunos vou te ensinar como criar sua nova realidade enquanto melhora a sua vida e a vida da sua família.</p>
+        </div>
+       </section>
+       <section class="section section-divider" id="review">
+        <div style="display:contents">
+         <div></div>
+        </div>
+       </section>
+       <section class="section section-divider _border-bottom related-products-container" id="related-products">
+        <div style="display:contents">
+         <div></div>
+        </div>
+       </section>
+       <section class="section section-divider" id="faq">
+        <div style="display:contents">
+         <button type="button" class="_d-flex _bg-white _w-full _aling-items-center _justify-content-center _text-gray-900 _text-2 _font-weight-bold _text-decoration-underline _px-2 _py-3 _border _rounded-lg"><span class="_mr-1">Dúvidas frequentes</span><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2720%27%20height=%2720%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+           <noscript></noscript></span></button>
+         <hot-modal class="faq-modal__container" position="top">
+          <hot-modal-body class="faq-modal__body">
+           <hot-modal-header></hot-modal-header>
+           <div class="_d-flex _justify-content-center _flex-column _w-full">
+            <div class="faq-container">
+             <h2 class="_w-full _mb-4 _text-md-5 _font-weight-bold">Perguntas Frequentes</h2>
+             <div class="faq">
+              <div class="accordion redesigned-modules" style="min-height: 768px;">
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Quem avaliou Investimentos do Zero?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Quem avaliou Investimentos do Zero?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Todas as avaliações mostradas aqui foram feitas por <strong>pessoas reais</strong> que compraram e deram sua opinião sobre o curso. Quando alguém compra um curso através da Hotmart, a pessoa recebe um convite para avaliar o conteúdo dele. A nota nesta página é o resultado da <strong>média das avaliações</strong> feitas por estes compradores, que vai de 1 a 5 estrelas.</p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" O que é e como funciona a Nota Média do curso?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">O que é e como funciona a Nota Média do curso?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">A nota média de Investimentos do Zero é de 5 estrelas. Depois de cada compra na Hotmart, você tem a oportunidade de avaliar a qualidade do curso e o seu nível de satisfação. Com a opinião dos compradores, nosso sistema calcula a nota média e colhemos os comentários que vão ajudar outras pessoas no momento da decisão de compra.</p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="organic-faq-item">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Como faço pra criar um produto?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Como faço pra criar um produto?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Primeiro, você precisa criar seu cadastro grátis, <a href="https://sso.hotmart.com/signup?service=https://hotmart.com/auth/signup-callback&amp;systemOrigin=app-hotmart-auth&amp;client_id=f2d997e6-876e-431e-9c0d-c361b8551763" target="_blank">clicando aqui</a>. Lá dentro, você tem acesso a mais de 15 formatos pra transformar o que você sabe em um produto digital. Além disso, vai poder acessar também o Hotmart Academy.</p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Como funciona o “Prazo de Garantia”?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Como funciona o “Prazo de Garantia”?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">O Prazo de Garantia é o período que você tem para pedir o <strong>reembolso</strong> integral do valor pago pela sua compra, caso o produto não seja satisfatório. Assim que solicitado, seu reembolso é processado automaticamente pela Hotmart em até <strong>5 dias</strong>. Para pagamentos com boleto bancário, você precisa preencher uma conta bancária para receber o dinheiro. Passados os 5 dias, o valor poderá ser identificado em sua conta em até 7 dias úteis. Já o estorno da fatura do cartão de crédito varia de acordo com o meio de pagamento e pode ocorrer na fatura atual ou na seguinte.</p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" O que é e como funciona o Certificado de Conclusão digital?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">O que é e como funciona o Certificado de Conclusão digital?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Alguns cursos online oferecem um certificado digital de conclusão. Alunos podem emitir esse certificado ao final do curso ou entrando em contato com o Autor ou Autora. Esses certificados podem ser compartilhados em redes sociais como o LinkedIn e inseridos em informações curriculares.</p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Quais diferenciais os produtos podem ter?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Quais diferenciais os produtos podem ter?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Os produtos na Hotmart têm diferenciais que mudam de acordo com o tipo de produto e a disponibilidade. Por exemplo, produtos do tipo "Cursos online" podem ou não oferecer <strong>certificado digital de conclusão</strong>. Caso o certificado esteja disponível, alunos podem emiti-lo dentro do curso ou entrando em contato com o(a) Autor(a). Os certificados podem ser compartilhados em redes sociais como o LinkedIn e inseridos em informações curriculares. A <strong>garantia</strong> também é um diferencial dos nossos produtos e pode variar de 7, 15 ou 30 dias, de acordo com o oferecido pelo Autor(a). Para ver os diferenciais disponíveis <strong>neste produto</strong>, basta checar a seção <strong>Diferenciais.</strong></p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Como acesso meu produto?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Como acesso meu produto?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Você receberá o acesso a Investimentos do Zero <strong>por email</strong>. Pode ser um curso online, um ebook, uma série de videoaulas, um serviço, evento, etc. O conteúdo será acessado ou baixado através de um computador, celular, tablet ou outro dispositivo digital. Você também pode acessar o produto comprado nesta página: </p>
+                 <div>
+                  01 - Faça login clicando em 
+                  <a href="https://app-vlc.hotmart.com/login?redirect=hotmart.com/pt-br/marketplace/produtos/investimentos-do-zero-foohe/E74257539X?sck=HOTMART_SITE&amp;search=8bd73e9a-4219-4a1d-a42c-8f2a6388b548&amp;hotfeature=33"> Entrar </a> 
+                 </div>
+                 <div>
+                   02 - Acesse o menu lateral, clique em 
+                  <a href="https://app-vlc.hotmart.com/login?redirect=hotmart.com/pt-br/marketplace/produtos/investimentos-do-zero-foohe/E74257539X?sck=HOTMART_SITE&amp;search=8bd73e9a-4219-4a1d-a42c-8f2a6388b548&amp;hotfeature=33"> Minha conta </a> 
+                 </div>
+                 <div>
+                   03 - Clique em 
+                  <a href="https://consumer.hotmart.com/purchase?itm_medium=internal&amp;itm_source=mktplace&amp;itm_campaign=all_traffic_first-access_button_my_purchases"> Minhas compras </a> 
+                 </div> Em "Minhas compras" estarão todos os produtos que você já comprou!
+                 <p></p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Tenho interesse neste curso, como posso comprar?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Tenho interesse neste curso, como posso comprar?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Para comprar este curso, clique no botão “<u>Comprar</u>”. Lembre-se de que nem todos os cursos estarão sempre disponíveis para compra. É possível que o Autor ou Autora esteja preparando uma nova turma ainda sem inscrições abertas.</p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Como faço para me afiliar?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Como faço para me afiliar?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Para ser Afiliado(a), recomendamos que leia os guias que disponibilizamos em todos os canais da <a target="_blank" href="https://www.hotmart.com/pt-BR/affiliates">Hotmart</a>. Além disso, uma boa maneira de se informar um pouco mais é acessando nosso <a target="_blank" href="https://blog.hotmart.com/pt-br/afiliado/">blog</a>. O produto desta página está disponível apenas para compra, para ver os produtos de afiliação, vá até o <a target="_blank" href="https://app-vlc.hotmart.com/market">Mercado de Afiliação.</a></p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Posso denunciar um produto que possui informações inadequadas?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Posso denunciar um produto que possui informações inadequadas?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Temos um canal exclusivo para receber denúncias em produtos que não estão de acordo com as <a target="_blank" href="https://blog.hotmart.com/pt-br/novas-regras-da-plataforma-hotmart/">regras da plataforma Hotmart</a>. Se você vir informações inadequadas, <a target="_blank" href="https://atendimento.hotmart.com.br/hc/pt-br/articles/360043565072-Acredito-que-um-usu%C3%A1rio-est%C3%A1-violando-os-Termos-de-Uso-Hotmart-Como-fa%C3%A7o-para-denunciar-"><u>denuncie aqui</u></a></p>
+                </div>
+               </hot-collapse>
+               <hot-collapse id="">
+                <div class="accordion__item" tabindex="0" role="button" aria-label=" Tenho outras dúvidas, quem pode me respondê-las?">
+                 <div class="accordion__heading">
+                  <div class="_d-flex _flex-row _align-items-baseline">
+                   <div class="_d-flex">
+                    <span class="accordion__title">Tenho outras dúvidas, quem pode me respondê-las?</span>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+                <div slot="collapsed">
+                 <p class="accordion__description">Acesse nossa <a target="_blank" href="https://atendimento.hotmart.com.br/hc/pt-br">Central de Atendimento</a>, onde explicamos, em detalhes, todas as dúvidas que você possa ter antes, durante ou depois de comprar um produto digital na Hotmart.</p>
+                </div>
+               </hot-collapse>
+              </div>
+             </div>
+            </div>
+           </div>
+          </hot-modal-body>
+         </hot-modal>
+        </div>
+       </section>
+       <section class="disclaimer-container" id="abusive-disclaimer">
+        O conteúdo deste produto não representa a opinião da Hotmart. Se você vir informações inadequadas, 
+        <a href="https://help.hotmart.com/pt-br" target="_blank" rel="noreferrer" tabindex="0" aria-label="O conteúdo deste produto não representa a opinião da Hotmart. Se você vir informações inadequadas, denuncie aqui">denuncie aqui</a>
+       </section>
+      </div>
+      <div class="column-checkout" id="payment">
+       <div style="display:contents">
+        <div class="checkout-common">
+         <div class="checkOut bottom-checkout has-price show-checkout" data-testid="checkout-bottom">
+          <div class="bottom-checkout-content">
+           <div class="bottom-checkout-content-title">
+            <div class="title-area">
+             <div class="title">
+              <span class="title-area--open">Investimentos do Zero</span>
+             </div>
+            </div>
+            <div class="price-area">
+             <div class="price">
+              <div class="price--value">
+               <span class="_text-md-5 _text-sm-2 _text-gray-900">R$&nbsp;249,00</span>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="button-area bottom-checkout-content-button"></div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="calendar-modal hide">
+        <div style="display:contents"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="modal-signup" class="modal-backdrop ">
+     <div class="modal">
+      <button class="modal__button" type="button"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2724%27%20height=%2724%27/%3e"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
+        <noscript></noscript></span></button>
+      <div class="modal__container">
+       <div class="modal__content">
+        <div class="modal__title">
+         <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2780%27%20height=%2726%27/%3e"></span><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic" class="image-icon modal__logo" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
+          <noscript></noscript></span>
+         <h2>Comece na Hotmart gratuitamente</h2>
+         <p>Crie uma conta e inicie seu projeto na maior plataforma de produtos digitais do mundo.</p>
+        </div>
+        <div class="modal__iframe">
+         <iframe id="signup-iframe" width="100%" height="100%" src="https://sso.hotmart.com/signup?variant&amp;noLogo&amp;nofooter&amp;transparent&amp;embed&amp;locale=pt-br&amp;service=https%3A%2F%2Fapp.hotmart.com%2F&amp;isEmbed=true&amp;element=modal&amp;url=https://sso.hotmart.com/signup?variant&amp;noLogo&amp;nofooter&amp;transparent&amp;embed&amp;locale=pt-br&amp;referrer=https://hotmart.com/marketplace/produtos/investimentos-do-zero-foohe/E74257539X?sck=HOTMART_SITE&amp;search=8bd73e9a-4219-4a1d-a42c-8f2a6388b548&amp;hotfeature=33" title="Signup Marketplace" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        </div>
+       </div>
+       <div class="modal__sidebar">
+        <div class="signup-content signup-content--photo">
+         <h3>Poucos passos, <span class="nowrap">muitas possibilidades</span></h3>
+         <ul>
+          <li><span>1</span><span>Preencha os campos ao lado pra <strong>começar grátis</strong></span></li>
+          <li><span>2</span><span>Junte-se a outras 300 mil pessoas que <strong>vendem com a gente!</strong></span></li>
+          <li><span>3</span><span>Crie um produto dentro dos mais de 15 formatos e <strong>ganhe dinheiro ensinando algo que você já domina</strong></span></li>
+         </ul>
+        </div>
+        <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27480%27%20height=%27642%27/%3e"></span><img alt="Elaine Lourença" srcset="https://hotmart.com/product/static/images/organic/signup-modal-image-woman.png?w=920 1x" src="https://hotmart.com/product/static/images/organic/signup-modal-image-woman.png?w=920" decoding="async" data-nimg="intrinsic" class="signup-content__image" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"></span>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div>
+     <div id="hm-mktplace-footer">
+      <div class="hm-mktplace-footer footer-resumed" data-testid="hm-mktplace-footer"></div>
+     </div>
+    </div>
+   </div> 
+  </div> 
+  <iframe src="https://a25678140304.cdn.optimizely.com/client_storage/a25678140304.html" hidden tabindex="-1" title="Optimizely Internal Frame" height="0" width="0" style="display: none;"></iframe>
+  <next-route-announcer>
+   <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+  </next-route-announcer> 
+  <script type="text/javascript" id="" charset="">function gtmBakeCookie(a,b,c){try{var e=new Date;e.setDate(e.getDate()+c);e=e.toGMTString();document.cookie=a+"\x3d"+b+";expires\x3d"+e+";domain\x3d.hotmart.com;path\x3d/"}catch(g){}}function gtmGetParam(a,b){try{var c=a.match("[?\x26]"+b+"\x3d([^\x26]+)");return c?c[1]:""}catch(e){return""}}
+function gtmCalculateTrafficSource(){try{var a="",b="",c="",e="",g=[["bing","q"],["google","q"],["yahoo","q"],["baidu","q"],["yandex","q"],["ask","q"]],d=document.referrer;ref_domain=d=d.substr(d.indexOf("//")+2);ref_path="/";ref_search="";var f=document.location.search;if(-1<f.indexOf("utm_source"))a=gtmGetParam(f,"utm_source"),b=gtmGetParam(f,"utm_medium"),c=gtmGetParam(f,"utm_campaign");else if(gtmGetParam(f,"gclid"))a="google",b="cpc",c="(not set)",e=gtmGetParam(f,"gclid");else if(gtmGetParam(f,
+"fbclid"))a="facebook",b="cpc",c="fbclid";else if(d){if(0==/hotmart.com/.test(d))for(-1<d.indexOf("/")&&(ref_domain=d.substr(0,d.indexOf("/")),ref_path=d.substr(d.indexOf("/")),-1<ref_path.indexOf("?")&&(ref_search=ref_path.substr(ref_path.indexOf("?")+1),ref_path=ref_path.substr(0,ref_path.indexOf("?")))),b="referral",a=ref_domain,d=0;d<g.length;d++)if(-1<ref_domain.indexOf(g[d][0])){b="organic";a=g[d][0];break}}else-1<f.indexOf("itm_source")&&(a=gtmGetParam(f,"utm_source"),b=gtmGetParam(f,"utm_medium"),
+c=gtmGetParam(f,"utm_campaign"));return{source:a,medium:b,campaign:c,gclid:e}}catch(h){return null}}function gtmReadCookie(a){try{for(var b=document.cookie.split(";"),c=0;c<b.length;c++){var e=b[c].split("\x3d");if(a==e[0].trim())return decodeURIComponent(e[1])}}catch(g){}return null}
+function gtmGetChannelGroup(a){try{return a?"organic"==a.medium?"Organic Search":"email"==a.medium?"Email":"affiliate"==a.medium?"Affiliate":"social"==a.medium||/facebook|twitter|instagram|linkedin|youtube|pinterest|linktree/.test(a.source)&&"referral"==a.medium?"Social":"referral"==a.medium?"Referral":/cpc|ppc|paid|paidsearch|display|cpm|banner|cpv|cpa|cpp/.test(a.medium)?"Paid":"direct"!=a.source&&"none"!=a.medium&&""!=a.source&&a?"Other":"Direct":"Other"}catch(b){return"null"}}
+!function(){try{var a=gtmCalculateTrafficSource();if(a.channel=gtmGetChannelGroup(a),""!==a.source)gtmBakeCookie("gtm_channel",JSON.stringify(a));else{var b=gtmReadCookie("gtm_channel");"direct"!=b&&b||(a={source:"direct",medium:"none",campaign:"",gclid:""},a.channel=gtmGetChannelGroup(a),gtmBakeCookie("gtm_channel",JSON.stringify(a)))}}catch(c){}}();</script> 
+  <script type="text/javascript" id="" charset="">document.addEventListener("cookieconsent",function(a){var b=a.detail.allowAdvertising;a=a.detail.enableConfigure?"Cookie Banner":"Cookie Notice";window.dataLayer=window.dataLayer||[];b?dataLayer.push({event:"custom_event",custom_event_name:"grant_ads_consent",event_details:"Granted::"+a}):dataLayer.push({event:"custom_event",custom_event_name:"grant_ads_consent",event_details:"Denied::"+a})});
+document.addEventListener("cookieshow",function(a){a=a.detail.enableConfigure?"Cookie Banner":"Cookie Notice";window.dataLayer=window.dataLayer||[];dataLayer.push({event:"custom_event",custom_event_name:"view_cookie_banner",event_details:a})});</script>
+  <script type="text/javascript" id="" charset="">(function(){var e="click",f=!0,g=!0,b=null,k=function(d){if("composed"in d&&"function"===typeof d.composedPath){var c=d.composedPath(),a=c[0];c=c.length?0<c.filter(function(h){return!a.shadowRoot&&!!h.shadowRoot}).length:!1;if(!g||c){if(/^.*cookie-policy-go-to-configuration.*$/i.test(a.className))b="Go To Configuration";else if(/^.*cookie-policy-confirm-btn.*$/.test(a.className))b="Confirm Configuration";else if(/^.*cookie-policy-accept-all.*$/i.test(a.className))b="Accept All";else if(/^.*cookie-policy-accept-only-necessary.*$/i.test(a.className))b=
+"Accept Only Necessary";else if(/^hot-modal__close$/i.test(a.className)&&/^div$/i.test(a.tagName))b="Close";else return;null!==b&&window.dataLayer.push({event:"custom_event",custom_event_name:"click_cookie_banner",event_details:b,element_details:{element:a,elementId:a.id||"",elementClasses:a.className||"",elementUrl:a.href||a.action||"",elementTarget:a.target||"",originalEvent:d,inShadowDom:c}})}}};document.addEventListener(e,k,f)})();</script>
+  <script type="text/javascript" id="" charset="">function gtmBakeCookie(a,b,c){try{var e=new Date;e.setDate(e.getDate()+c);e=e.toGMTString();document.cookie=a+"\x3d"+b+";expires\x3d"+e+";domain\x3d.hotmart.com;path\x3d/"}catch(g){}}function gtmGetParam(a,b){try{var c=a.match("[?\x26]"+b+"\x3d([^\x26]+)");return c?c[1]:""}catch(e){return""}}
+function gtmCalculateTrafficSource(){try{var a="",b="",c="",e="",g=[["bing","q"],["google","q"],["yahoo","q"],["baidu","q"],["yandex","q"],["ask","q"]],d=document.referrer;ref_domain=d=d.substr(d.indexOf("//")+2);ref_path="/";ref_search="";var f=document.location.search;if(-1<f.indexOf("utm_source"))a=gtmGetParam(f,"utm_source"),b=gtmGetParam(f,"utm_medium"),c=gtmGetParam(f,"utm_campaign");else if(gtmGetParam(f,"gclid"))a="google",b="cpc",c="(not set)",e=gtmGetParam(f,"gclid");else if(gtmGetParam(f,
+"fbclid"))a="facebook",b="cpc",c="fbclid";else if(d){if(0==/hotmart.com/.test(d))for(-1<d.indexOf("/")&&(ref_domain=d.substr(0,d.indexOf("/")),ref_path=d.substr(d.indexOf("/")),-1<ref_path.indexOf("?")&&(ref_search=ref_path.substr(ref_path.indexOf("?")+1),ref_path=ref_path.substr(0,ref_path.indexOf("?")))),b="referral",a=ref_domain,d=0;d<g.length;d++)if(-1<ref_domain.indexOf(g[d][0])){b="organic";a=g[d][0];break}}else-1<f.indexOf("itm_source")&&(a=gtmGetParam(f,"utm_source"),b=gtmGetParam(f,"utm_medium"),
+c=gtmGetParam(f,"utm_campaign"));return{source:a,medium:b,campaign:c,gclid:e}}catch(h){return null}}function gtmReadCookie(a){try{for(var b=document.cookie.split(";"),c=0;c<b.length;c++){var e=b[c].split("\x3d");if(a==e[0].trim())return decodeURIComponent(e[1])}}catch(g){}return null}
+function gtmGetChannelGroup(a){try{return a?"organic"==a.medium?"Organic Search":"email"==a.medium?"Email":"affiliate"==a.medium?"Affiliate":"social"==a.medium||/facebook|twitter|instagram|linkedin|youtube|pinterest|linktree/.test(a.source)&&"referral"==a.medium?"Social":"referral"==a.medium?"Referral":/cpc|ppc|paid|paidsearch|display|cpm|banner|cpv|cpa|cpp/.test(a.medium)?"Paid":"direct"!=a.source&&"none"!=a.medium&&""!=a.source&&a?"Other":"Direct":"Other"}catch(b){return"null"}}
+!function(){try{var a=gtmCalculateTrafficSource();if(a.channel=gtmGetChannelGroup(a),""!==a.source)gtmBakeCookie("gtm_channel",JSON.stringify(a));else{var b=gtmReadCookie("gtm_channel");"direct"!=b&&b||(a={source:"direct",medium:"none",campaign:"",gclid:""},a.channel=gtmGetChannelGroup(a),gtmBakeCookie("gtm_channel",JSON.stringify(a)))}}catch(c){}}();</script> 
+  <script type="text/javascript" id="" charset="">document.addEventListener("cookieconsent",function(a){var b=a.detail.allowAdvertising;a=a.detail.enableConfigure?"Cookie Banner":"Cookie Notice";window.dataLayer=window.dataLayer||[];b?dataLayer.push({event:"custom_event",custom_event_name:"grant_ads_consent",event_details:"Granted::"+a}):dataLayer.push({event:"custom_event",custom_event_name:"grant_ads_consent",event_details:"Denied::"+a})});
+document.addEventListener("cookieshow",function(a){a=a.detail.enableConfigure?"Cookie Banner":"Cookie Notice";window.dataLayer=window.dataLayer||[];dataLayer.push({event:"custom_event",custom_event_name:"view_cookie_banner",event_details:a})});</script>
+  <script type="text/javascript" id="" charset="">(function(){var e="click",f=!0,g=!0,b=null,k=function(d){if("composed"in d&&"function"===typeof d.composedPath){var c=d.composedPath(),a=c[0];c=c.length?0<c.filter(function(h){return!a.shadowRoot&&!!h.shadowRoot}).length:!1;if(!g||c){if(/^.*cookie-policy-go-to-configuration.*$/i.test(a.className))b="Go To Configuration";else if(/^.*cookie-policy-confirm-btn.*$/.test(a.className))b="Confirm Configuration";else if(/^.*cookie-policy-accept-all.*$/i.test(a.className))b="Accept All";else if(/^.*cookie-policy-accept-only-necessary.*$/i.test(a.className))b=
+"Accept Only Necessary";else if(/^hot-modal__close$/i.test(a.className)&&/^div$/i.test(a.tagName))b="Close";else return;null!==b&&window.dataLayer.push({event:"custom_event",custom_event_name:"click_cookie_banner",event_details:b,element_details:{element:a,elementId:a.id||"",elementClasses:a.className||"",elementUrl:a.href||a.action||"",elementTarget:a.target||"",originalEvent:d,inShadowDom:c}})}}};document.addEventListener(e,k,f)})();</script> 
+  <img id="px_img" src="https://identification.hotmart.com/id.gif?cid=1740303198239482296718290884600&amp;bid=1740303198239482296718290884600" width="0" height="0" style="display: none;"> 
+  <iframe src="https://a25678140304.cdn.optimizely.com/client_storage/a25678140304.html" hidden tabindex="-1" title="Optimizely Internal Frame" height="0" width="0" style="display: none;"></iframe> 
+  <script type="text/javascript" id="" charset="">function gtmBakeCookie(a,b,c){try{var e=new Date;e.setDate(e.getDate()+c);e=e.toGMTString();document.cookie=a+"\x3d"+b+";expires\x3d"+e+";domain\x3d.hotmart.com;path\x3d/"}catch(g){}}function gtmGetParam(a,b){try{var c=a.match("[?\x26]"+b+"\x3d([^\x26]+)");return c?c[1]:""}catch(e){return""}}
+function gtmCalculateTrafficSource(){try{var a="",b="",c="",e="",g=[["bing","q"],["google","q"],["yahoo","q"],["baidu","q"],["yandex","q"],["ask","q"]],d=document.referrer;ref_domain=d=d.substr(d.indexOf("//")+2);ref_path="/";ref_search="";var f=document.location.search;if(-1<f.indexOf("utm_source"))a=gtmGetParam(f,"utm_source"),b=gtmGetParam(f,"utm_medium"),c=gtmGetParam(f,"utm_campaign");else if(gtmGetParam(f,"gclid"))a="google",b="cpc",c="(not set)",e=gtmGetParam(f,"gclid");else if(gtmGetParam(f,
+"fbclid"))a="facebook",b="cpc",c="fbclid";else if(d){if(0==/hotmart.com/.test(d))for(-1<d.indexOf("/")&&(ref_domain=d.substr(0,d.indexOf("/")),ref_path=d.substr(d.indexOf("/")),-1<ref_path.indexOf("?")&&(ref_search=ref_path.substr(ref_path.indexOf("?")+1),ref_path=ref_path.substr(0,ref_path.indexOf("?")))),b="referral",a=ref_domain,d=0;d<g.length;d++)if(-1<ref_domain.indexOf(g[d][0])){b="organic";a=g[d][0];break}}else-1<f.indexOf("itm_source")&&(a=gtmGetParam(f,"utm_source"),b=gtmGetParam(f,"utm_medium"),
+c=gtmGetParam(f,"utm_campaign"));return{source:a,medium:b,campaign:c,gclid:e}}catch(h){return null}}function gtmReadCookie(a){try{for(var b=document.cookie.split(";"),c=0;c<b.length;c++){var e=b[c].split("\x3d");if(a==e[0].trim())return decodeURIComponent(e[1])}}catch(g){}return null}
+function gtmGetChannelGroup(a){try{return a?"organic"==a.medium?"Organic Search":"email"==a.medium?"Email":"affiliate"==a.medium?"Affiliate":"social"==a.medium||/facebook|twitter|instagram|linkedin|youtube|pinterest|linktree/.test(a.source)&&"referral"==a.medium?"Social":"referral"==a.medium?"Referral":/cpc|ppc|paid|paidsearch|display|cpm|banner|cpv|cpa|cpp/.test(a.medium)?"Paid":"direct"!=a.source&&"none"!=a.medium&&""!=a.source&&a?"Other":"Direct":"Other"}catch(b){return"null"}}
+!function(){try{var a=gtmCalculateTrafficSource();if(a.channel=gtmGetChannelGroup(a),""!==a.source)gtmBakeCookie("gtm_channel",JSON.stringify(a));else{var b=gtmReadCookie("gtm_channel");"direct"!=b&&b||(a={source:"direct",medium:"none",campaign:"",gclid:""},a.channel=gtmGetChannelGroup(a),gtmBakeCookie("gtm_channel",JSON.stringify(a)))}}catch(c){}}();</script> 
+  <script type="text/javascript" id="" charset="">document.addEventListener("cookieconsent",function(a){var b=a.detail.allowAdvertising;a=a.detail.enableConfigure?"Cookie Banner":"Cookie Notice";window.dataLayer=window.dataLayer||[];b?dataLayer.push({event:"custom_event",custom_event_name:"grant_ads_consent",event_details:"Granted::"+a}):dataLayer.push({event:"custom_event",custom_event_name:"grant_ads_consent",event_details:"Denied::"+a})});
+document.addEventListener("cookieshow",function(a){a=a.detail.enableConfigure?"Cookie Banner":"Cookie Notice";window.dataLayer=window.dataLayer||[];dataLayer.push({event:"custom_event",custom_event_name:"view_cookie_banner",event_details:a})});</script>
+  <script type="text/javascript" id="" charset="">(function(){var e="click",f=!0,g=!0,b=null,k=function(d){if("composed"in d&&"function"===typeof d.composedPath){var c=d.composedPath(),a=c[0];c=c.length?0<c.filter(function(h){return!a.shadowRoot&&!!h.shadowRoot}).length:!1;if(!g||c){if(/^.*cookie-policy-go-to-configuration.*$/i.test(a.className))b="Go To Configuration";else if(/^.*cookie-policy-confirm-btn.*$/.test(a.className))b="Confirm Configuration";else if(/^.*cookie-policy-accept-all.*$/i.test(a.className))b="Accept All";else if(/^.*cookie-policy-accept-only-necessary.*$/i.test(a.className))b=
+"Accept Only Necessary";else if(/^hot-modal__close$/i.test(a.className)&&/^div$/i.test(a.tagName))b="Close";else return;null!==b&&window.dataLayer.push({event:"custom_event",custom_event_name:"click_cookie_banner",event_details:b,element_details:{element:a,elementId:a.id||"",elementClasses:a.className||"",elementUrl:a.href||a.action||"",elementTarget:a.target||"",originalEvent:d,inShadowDom:c}})}}};document.addEventListener(e,k,f)})();</script>
+  <next-route-announcer>
+   <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+  </next-route-announcer> 
+  <img id="px_img" src="https://identification.hotmart.com/id.gif?cid=1740303198239482296718290884600&amp;bid=1740303198239482296718290884600" width="0" height="0" style="display: none;"> 
+  <iframe src="https://a25678140304.cdn.optimizely.com/client_storage/a25678140304.html" hidden tabindex="-1" title="Optimizely Internal Frame" height="0" width="0" style="display: none;"></iframe>
+  <next-route-announcer>
+   <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+  </next-route-announcer> 
+  <img id="px_img" src="https://identification.hotmart.com/id.gif?cid=1740303198239482296718290884600&amp;bid=1740303198239482296718290884600" width="0" height="0" style="display: none;"> 
+ </body>
+                 </html>
